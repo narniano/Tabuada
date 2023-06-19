@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #094164;
+  font: normal 15pt Arial;
+}
+
+header {
+  color: #e1e6e3;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e1e6e3;
+  color: #001624;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #00000070;
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+}
+
+#infos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div {
+  padding: 10px;
+}
+
+footer {
+  color: #e1e6e3;
+  font-size: 12pt;
+  padding-top: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+img {
+  height: 250px;
+}
